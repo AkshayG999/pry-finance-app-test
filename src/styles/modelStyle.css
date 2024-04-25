@@ -1,0 +1,110 @@
+.model-header-main {
+    margin: 20px 0;
+}
+
+.model-header-title-container {
+    width: 200px;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.model-header-title-container:hover {
+    background-color: rgba(204, 204, 204, 0.239);
+}
+.model-header-title-container h4 {
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+    font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.model-header-title-container span {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.popup-add-model-main-container{
+    margin-left: 30px;
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+}
+
+.popup-header-model-title-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+
+.popup-header-model-title-container p{
+    font-family: "IBM Plex Sans", sans-serif !important;
+    font-size: 14px;
+    color: black;
+}
+
+.popup-header-model-title-container i{
+    font-size: 14px;
+    cursor: pointer;
+    color: gray;
+}
+
+.radio-popup-container{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.radio-popup-container input{
+    margin-right: 10px;
+}
+
+.radio-popup-container label{
+    font-family: "IBM Plex Sans", sans-serif !important;
+    font-size: 12px;
+    color: black;
+}
+
+.second-popup-container-model-add{
+    margin-left: 30px;
+    width: 200px;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    left:295px;
+    top: 20px;
+}
+
+.second-popup-inner-add-model{
+padding: 20px 20px 0px 20px;
+
+}
+
+.popup-inner-add-model{
+    background-color: white;
+}
+
+.css-13cymwt-control{
+    width: 250px;
+}
