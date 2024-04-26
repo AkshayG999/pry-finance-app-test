@@ -3,6 +3,7 @@ import Select from 'react-select';
 import Output from './Output';
 import Box from '@mui/material/Box';
 import Button from '@mui/joy/Button';
+import CustomSelect from './CustomSelect';
 
 
 
@@ -65,6 +66,7 @@ const Formulas = ({ dataList, formulaFields, setFormulaFields }) => {
         const index = formulaFields.findIndex((field) => field.id === id);
         updatedFields[index].selectedOption = newValue;
         setFormulaFields(updatedFields);
+        console.log({formulaFields})
     };
 
     return (
@@ -73,9 +75,7 @@ const Formulas = ({ dataList, formulaFields, setFormulaFields }) => {
             {formulaFields.map((field) => (
                 <div key={field.id}>
                     <label>Formula {field.id + 1}</label>
-                    <Select
-                        isClearable={false}
-                        isMulti
+                    <CustomSelect
                         options={options}
                         onChange={(newValue) => handleSelectChange(newValue, field.id)}
                         value={field.selectedOption}
@@ -85,5 +85,6 @@ const Formulas = ({ dataList, formulaFields, setFormulaFields }) => {
         </div>
     );
 };
+
 
 export default Formulas;

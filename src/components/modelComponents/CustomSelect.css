@@ -1,0 +1,78 @@
+.custom-select {
+  position: relative;
+  width: 200px;
+
+  .selected-options {
+      min-width: 300px;
+      width: auto;
+      min-height: 35px;
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid #ccc;
+      padding: 5px;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  .selected-option {
+      height: 20px;
+      padding: 2px 5px;
+      margin-right: 5px;
+      background-color: #757575;
+      color: #fff;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+  }
+
+  .remove-option {
+      margin-left: 5px;
+      font-size: 12px;
+      cursor: pointer;
+  }
+
+  .remove-option:hover {
+      color: #ff0000;
+  }
+
+  .options {
+      position: absolute;
+      top: calc(100% + 5px);
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 999;
+      max-height: 200px;
+      overflow-y: auto;
+  }
+
+  .search-input {
+      width: calc(100% - 20px);
+      padding: 5px 10px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      margin: 5px 10px;
+      outline: none;
+  }
+
+  .option {
+      padding: 5px 10px;
+      cursor: pointer;
+  }
+
+  .option:hover {
+      background-color:  #bdbdbd;
+  }
+
+  .highlighted {
+      background-color: #bdbdbd;
+  }
+
+  .selected {
+      background-color: #008000;
+      color: #fff;
+  }
+}

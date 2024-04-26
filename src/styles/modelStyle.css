@@ -49,7 +49,7 @@
 .popup-header-model-title-container{
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 10px 0px 10px;
 }
 
@@ -106,5 +106,14 @@ padding: 20px 20px 0px 20px;
 }
 
 .css-13cymwt-control{
+    width: 250px;
+}
+.css-1nmdiq5-menu {
+    width: 250px;
+}
+.css-qbdosj-Input{
+    width: 250px;
+}
+.css-b62m3t-container{
     width: 250px;
 }

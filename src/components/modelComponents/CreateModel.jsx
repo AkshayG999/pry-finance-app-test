@@ -3,9 +3,11 @@ import React, { useState } from "react";
 function CreateModel() {
   const [popupVisible, setPopupVisible] = useState(false);
   const [secondPopupVisible, setSecondPopupVisible] = useState(false);
+
   const togglePopup = () => {
     setPopupVisible(!popupVisible);
   };
+
   const toggleSecondPopup = () => {
     setSecondPopupVisible(!secondPopupVisible);
   };

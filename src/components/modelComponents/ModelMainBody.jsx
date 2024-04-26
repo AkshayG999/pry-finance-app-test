@@ -16,7 +16,7 @@ function ModelMainBody() {
           className="container-fluid shadow"
           style={{ background: "white", height: "auto", minHeight: "100vh" }}
         >
-          <div className="row">
+          <div className="row" style={{ padding: "20px" }}>
             <div className="col-lg-3">
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <div>
@@ -33,7 +33,7 @@ function ModelMainBody() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <div style={{ display: "flex", justifyContent: "space-around" }}>
                 <div>
                   <h6>
                     <span>
